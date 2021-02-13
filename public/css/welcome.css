@@ -1,0 +1,122 @@
+.welcomeViewerContainer{
+   width:100%;
+   height:100vh;
+    overflow: hidden;
+    background-color: #000;
+}
+.welcomeViewer{
+    width:300%;
+    display:flex;
+    position:relative;
+}
+.welcomeViewer>section{
+    height:80%;
+    flex:1;
+    border:1px solid #000;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcomeViewer>section>img{
+    width:100%;
+    height:100%;
+}
+.welcomeViewerArrows{
+    position: absolute;
+    height:100%;
+    width:100%;
+    z-index: 1;
+}
+.welcomeViewerArrows>span{
+    position:absolute;
+    top:40%;
+    width:60px;
+    height:60px;
+    padding:10px;
+}
+.welcomeViewer>span>img{
+    width:100%;
+}
+.rightArrow{
+    right:0px;
+}
+.leftArrow{
+    left:0px;
+}
+
+.aboutPre{
+    text-align: center;
+    margin-bottom:60px;
+}
+.aboutPre>section{
+    display:inline-block;
+    padding:25px 20px;
+    line-height:26px;
+    width:70%;
+    margin-top:20px;
+    background-color: #000;
+}
+.aboutPre>div{
+    text-align: center;
+}
+.aboutPre button{
+    margin:10px;
+    padding:5px;
+    height:40px;
+    width:160px;
+    color:#ff9100;
+    background-color: transparent;
+    border:2px solid #ff9100;
+    border-radius: 30px;
+    cursor:pointer;
+}
+.aboutPre button:hover{
+    background-color: rgba(255,145,0,0.5);
+}
+.aboutPre textarea{
+    resize:none;
+    width:50%;
+    padding:8px;
+    font-size: large;
+    color:#fff;
+    background-color: rgb(49, 49, 49);
+    box-shadow: 0px 0px 3px 3px rgb(92, 91, 91);
+}
+food-item{
+    display:inline-block;
+    text-align: center;
+    transition:all 0.4s ease-in-out;
+}
+food-item>a>img{
+    height:200px;
+    margin-right: 20px;
+    max-width: 200px;
+}
+
+food-item:hover{
+    color:#ff9100;
+    transform: translateY(-10px);
+}
+/*************   FOOTER    **********/
+.welcomeFooter{
+    background-color: rgb(0,0,0,.95);
+    display: flex;
+    padding:30px 10%;
+}
+.welcomeFooter>div>*{
+    display:inline-block;
+}
+.welcomeFooter>div{
+    flex:1;
+display:flex;
+text-align: center;
+justify-content: center;
+}
+.welcomeFooter a{
+    color:#ff9100;
+
+}
+ .welcomeFooter img{
+    height:25px;
+    margin-left: 10px;
+}

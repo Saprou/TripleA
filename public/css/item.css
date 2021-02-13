@@ -1,0 +1,51 @@
+.itemContainer{
+    background-color: #000;
+    height:100vh;
+    padding-top:60px;
+}
+.itemContainer>form{
+    background-color: transparent;
+    padding-top: 20px;;
+    text-align: center;
+}
+.itemContainer>form>button{
+    color:#ff9100;
+    height:60px;
+    width:160px;
+    background-color: #000;
+    border:#ff9100 2px solid;
+    cursor: pointer;
+}
+.itemContainer>div{
+    display:flex;
+}
+.itemContainer>section{
+    display:flex;
+    align-items: center;
+    text-align: center;
+}
+.itemContainer>section>h1{
+    color:#ff9100;
+    padding:20px;
+    flex:1;
+}
+.itemContainer>div>div{
+    flex:1;
+    height:100%;
+    padding:30px;
+    justify-content: center;
+}
+.itemImage,.itemGrad{
+    text-align: center;
+    justify-content: start;
+}
+.itemGrad>section{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;;
+    padding:10px 0px ;
+}
+.itemGrad>section>img{
+    height:15px;
+    margin:0px 10px ;
+}

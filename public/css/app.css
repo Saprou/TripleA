@@ -1,0 +1,205 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin:0px;
+  padding:0px;
+  outline: none;
+}
+main{
+    padding-top: 40px;
+}
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+body{
+    color:#fff;
+    font-size:14px;
+    font-family:
+		system-ui,
+		-apple-system, /* Firefox supports this but not yet `system-ui` */
+		'Segoe UI',
+		Roboto,
+		Helvetica,
+		Arial,
+		sans-serif,
+		'Apple Color Emoji',
+		'Segoe UI Emoji';
+}
+.background{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#000;
+    width:100%;
+    height:100%;
+    z-index: -1;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+    transition:color ease-in-out 0.5s;
+}
+a:hover{
+    color: rgba(255,145,0,0.5);
+}
+li{
+    list-style: none;
+}
+.background img{
+    height:100%;
+}
+/*==================LOGIN===========*/
+.loginForm{
+    height:100vh;
+    width:100%;
+    display:flex;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+
+}
+.loginForm form label{
+    display: block;
+    padding:0px 0px 0px 10px;
+}
+.loginForm img{
+    height:150px;
+}
+.loginForm section{
+text-align: center;
+}
+.loginForm a{
+    text-align: center;
+}
+.loginForm input{
+    height:40px;
+    width:320px;
+    margin:10px;
+    color:#fff;
+    text-indent: 12px;
+    border:0px;
+    outline: none;
+    background:linear-gradient(to right,rgb(68, 66, 66),rgb(27, 27, 27));
+}
+.loginForm input:hover{
+    box-shadow:0px 0px 2px 2px #555 ;
+}
+.loginForm input[type="checkbox"]{
+    height:15px;
+    width:15px;
+}
+.rememberMe{
+    text-align: left;
+}
+.rememberMe section{
+    text-align: left;
+    display:inline-block;
+    width:48%;
+}
+
+.loginForm button{
+    width:90px;
+    height:40px;
+    cursor:pointer;
+    background-color:transparent;
+    border:#fff solid 2px;
+    color:#fff;
+}
+/*************** ABOUT  ************/
+.AboutContainer{
+    background-color:#000;
+}
+.abouImage{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.abouImage>img{
+    height:70%;
+}
+.abouImage>h1{
+    color:#ff9100;
+}
+.aboutContent>section{
+    text-align: center;
+    line-height:22px;
+    font-size: 1.2em;
+    padding: 30px 15% 60px 15%;
+    color:rgb(202, 198, 198);
+}
+/**************  CONTACT **********/
+.contactContent{
+    display:flex;
+}
+.contactContent h1{
+    padding-bottom:30px;
+}
+.contactContent>section{
+    flex:1;
+}
+.getInTouch{
+    text-align: center;
+    padding-bottom: 30px;
+    color:#ff9100;
+}
+.getInTouch form{
+    background-color: #000;
+    color:#ff9100;
+}
+.getInTouch input{
+    height:60px;
+    width:60%;
+    background-color: #555;
+    text-indent: 9px;
+    margin: 10px;
+    font-size: 1.3em;
+    color:white;
+}
+.getInTouch textarea{
+    background-color: #555;
+    width:60%;
+    height:150px;
+    resize: none;
+    margin: 10px;
+    font-size: 1.3em;
+    color:white;
+    text-indent: 9px;
+}
+.getInTouch button{
+    width:60px;
+    height:25px;
+    background-color: #000;
+    border: #fff solid 1px;
+    color:#fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.ourHeadOffice{
+    text-align: left;
+    padding-bottom: 30px;
+    color:#ff9100;
+}
+.ourHeadOffice h1{
+    margin-left: 20px;;
+}
+.ourHeadOffice>section{
+    display:flex;
+    padding:20px;
+    color:#fff;
+    align-items: center;
+}
+.ourHeadOffice img{
+    display:inline-block;
+    width:30px;
+    height:30px;
+    margin-right: 20px;;
+}
+.ourHeadOffice h4{
+    display:inline-block;
+}
